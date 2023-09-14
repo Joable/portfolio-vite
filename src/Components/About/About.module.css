@@ -1,9 +1,23 @@
+/* about */
 .about{
     display: flex;
     flex-direction: row;
+    gap: 15px;
     max-width: 1000px;
     max-height: 400px;
-    object-fit: cover;
     overflow: hidden;
+}
+
+/* aboutText */
+.aboutText{
+    max-width: 500px;
+}
+
+/* aboutImage */
+.aboutImage{
+    width: 300px;
+    box-sizing: border-box;
+    object-fit: scale-down;
+    padding: 20px;
 }
 
