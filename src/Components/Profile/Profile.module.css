@@ -1,7 +1,17 @@
+/* profile */
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+}
+
 /* profileWrapper */
 .profileWrapper{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 /* profileHeader */
@@ -26,6 +36,7 @@
 .techStack{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 15px;
 }
 
