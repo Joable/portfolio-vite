@@ -17,7 +17,7 @@ export default function Profile(){
             </div>
 
             <div className={styles.techStack}>
-                <h3>Tech stack:</h3>
+                <h3>Tech stack</h3>
 
                 <img src="../../img/smiley.png" alt="logo1" />
                 <img src="../../img/divine.png" alt="logo2" />
