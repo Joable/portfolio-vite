@@ -1,0 +1,9 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    max-height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+

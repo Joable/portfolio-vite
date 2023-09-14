@@ -20,8 +20,8 @@ export default function Profile(){
                 <h3>Tech stack</h3>
 
                 <img src="../../img/smiley.png" alt="logo1" />
-                <img src="../../img/divine.png" alt="logo2" />
-                <img src="../../img/osaka1.jpg" alt="logo3" />
+                <img src="../../img/smiley.png" alt="logo2" />
+                <img src="../../img/smiley.png" alt="logo3" />
             </div>
         </section>
     );
