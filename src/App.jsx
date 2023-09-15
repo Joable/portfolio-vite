@@ -2,6 +2,7 @@ import './App.css';
 
 import About from './Components/About/About';
 import Profile from './Components/Profile/Profile';
+import Projects from './Components/Projects/Projects';
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
       <Profile/>
 
       <About/>
+
+      <Projects/>
     </ div>
   )
 }
