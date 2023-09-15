@@ -1,0 +1,12 @@
+/* item */
+.item{
+    display: flex;
+    flex-direction: row;
+}
+
+/* techStack */
+.techStack{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
