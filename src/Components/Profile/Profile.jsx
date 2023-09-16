@@ -4,6 +4,7 @@ import styles from './Profile.module.css';
 export default function Profile(){
     return(
         <section className={styles.profile}>
+
             <div className={styles.profileWrapper}>
                 <div className={styles.profileHeader}>
                     <h2>Front End Developer</h2>
@@ -23,6 +24,7 @@ export default function Profile(){
                 <img src="../../img/smiley.png" alt="logo2" />
                 <img src="../../img/smiley.png" alt="logo3" />
             </div>
+            
         </section>
     );
 }
