@@ -6,9 +6,12 @@ export default function Footer(){
             <div className={styles.footerContent}>
                 <button>Go up</button>
 
-                <a href='#'>Github</a>
 
-                <a href="#">Linkedin</a>
+                <div className={styles.links}>
+                    <a href='#'>Github</a>
+
+                    <a href="#">Linkedin</a>
+                </div>
             </div>
         </footer>
     );
