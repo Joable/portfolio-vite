@@ -4,10 +4,12 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Profile from './Components/Profile/Profile';
 import Projects from './Components/Projects/Projects';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
   return (
+    <>
     <div className='center'>
       <Profile/>
 
@@ -17,6 +19,9 @@ function App() {
 
       <Contact/>
     </ div>
+
+    <Footer/>
+    </>
   )
 }
 
