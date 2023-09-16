@@ -1,0 +1,14 @@
+/* nav */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* pageNavigation */
+.pageNavigation{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
