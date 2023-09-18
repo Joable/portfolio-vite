@@ -26,11 +26,6 @@
     color: var(--gray-text);
 }
 
-.profileHeader a{
-    height: 50px;
-    width: 50px;
-}
-
 /* imageWrapper */
 .imageWrapper{
     display: flex;

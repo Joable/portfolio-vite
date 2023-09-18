@@ -4,6 +4,7 @@ import {
     AiFillLinkedin,
     AiFillGithub
 } from 'react-icons/ai'
+import { IconContext } from 'react-icons';
 
 export default function Profile(){
     return(
@@ -22,12 +23,15 @@ export default function Profile(){
                 </div>
 
                 <div className={styles.externalLinks}>
-                    <a href="#">
-                        <AiFillLinkedin/>
-                    </a>
-                    <a href="#">
-                        <AiFillGithub/>
-                    </a>
+
+                    <IconContext.Provider value={{size: "40px", color: "black"}}>
+                        <a href="#">
+                            <AiFillLinkedin/>
+                        </a>
+                        <a href="#">
+                            <AiFillGithub/>
+                        </a>
+                    </IconContext.Provider>
                 </div>
 
             </div>
