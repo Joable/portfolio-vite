@@ -7,7 +7,7 @@ export default function Profile(){
 
             <div className={styles.profileWrapper}>
                 <div className={styles.profileHeader}>
-                    <h2>Front End Developer</h2>
+                    <h2>Front End React Developer</h2>
                     <h3>Joaquin Altable</h3>
                     <p>joaquin el frontend Developer</p>
                 </div>

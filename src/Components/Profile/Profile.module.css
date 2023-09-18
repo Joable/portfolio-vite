@@ -15,8 +15,9 @@
 }
 
 /* profileHeader */
-.profileHeader{
-    
+.profileHeader h2{
+    font-size: 43px;
+    margin-bottom: 0;
 }
 
 /* imageWrapper */
