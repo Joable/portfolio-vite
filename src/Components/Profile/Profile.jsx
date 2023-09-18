@@ -32,6 +32,7 @@ export default function Profile(){
                             <AiFillGithub/>
                         </a>
                     </IconContext.Provider>
+                    
                 </div>
 
             </div>
