@@ -1,5 +1,9 @@
 import styles from './Profile.module.css';
 
+import {
+    AiFillLinkedin,
+    AiFillGithub
+} from 'react-icons/ai'
 
 export default function Profile(){
     return(
@@ -15,6 +19,15 @@ export default function Profile(){
 
                 <div className={styles.imageWrapper}>
                     <img src="../../img/cheeto-chan.PNG" alt="cheeto chan" />
+                </div>
+
+                <div className={styles.externalLinks}>
+                    <a href="#">
+                        <AiFillLinkedin/>
+                    </a>
+                    <a href="#">
+                        <AiFillGithub/>
+                    </a>
                 </div>
 
             </div>

@@ -9,7 +9,8 @@
 
 /* profileWrapper */
 .profileWrapper{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     align-items: center;
     justify-content: space-between;
 }
@@ -25,11 +26,17 @@
     color: var(--gray-text);
 }
 
+.profileHeader a{
+    height: 50px;
+    width: 50px;
+}
+
 /* imageWrapper */
 .imageWrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 250px;
     max-width: 250px;
     max-height: 250px;
     border: 2px solid black;
