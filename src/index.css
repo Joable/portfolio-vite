@@ -1,4 +1,5 @@
 #root{
+    --gray-text: rgb(134, 131, 131);
     position: relative;
     padding-bottom: 200px;
 }

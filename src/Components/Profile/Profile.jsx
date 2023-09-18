@@ -6,15 +6,17 @@ export default function Profile(){
         <section className={styles.profile}>
 
             <div className={styles.profileWrapper}>
+
                 <div className={styles.profileHeader}>
-                    <h2>Front End React Developer</h2>
-                    <h3>Joaquin Altable</h3>
-                    <p>joaquin el frontend Developer</p>
+                    <h2>Front-End React Developer</h2>
+
+                    <p>Hi, i'm Joaquin Altable. A passionate React front-end developer from Buenos Aires, Argentina.</p>
                 </div>
 
                 <div className={styles.imageWrapper}>
                     <img src="../../img/cheeto-chan.PNG" alt="cheeto chan" />
                 </div>
+
             </div>
 
             <div className={styles.techStack}>
