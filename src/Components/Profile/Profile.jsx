@@ -39,9 +39,10 @@ export default function Profile(){
             <div className={styles.techStack}>
                 <h3>Tech stack</h3>
 
-                <img src="../../img/smiley.png" alt="logo1" />
-                <img src="../../img/smiley.png" alt="logo2" />
-                <img src="../../img/smiley.png" alt="logo3" />
+                <img src="../../img/HTML.svg" alt="HTML" />
+                <img src="../../img/CSS.svg" alt="CSS" />
+                <img src="../../img/JavaScript.svg" alt="JavaScript" />
+                <img src="../../img/React.svg" alt="React" />
             </div>
             
         </section>
