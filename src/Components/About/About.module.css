@@ -1,11 +1,18 @@
 /* about */
 .about{
     display: flex;
-    flex-direction: row;
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     max-width: 1000px;
-    max-height: 400px;
     overflow: hidden;
+}
+
+/* aboutWrapper */
+.aboutWrapper{
+    display: flex;
+    flex-direction: row;
+    max-height: 500px;
 }
 
 /* aboutText */
@@ -15,9 +22,11 @@
 
 /* aboutImage */
 .aboutImage{
-    width: 300px;
+    display: flex;
+    justify-content: center;
     box-sizing: border-box;
-    object-fit: scale-down;
+    width: 300px;
     padding: 20px;
+    overflow: hidden;
 }
 
