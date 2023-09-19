@@ -12,3 +12,8 @@ body{
 a{
     text-decoration: none;
 }
+
+p{
+    color: var(--gray-text);
+    font-size: 15px;
+}

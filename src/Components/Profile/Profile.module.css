@@ -24,11 +24,6 @@
     margin-bottom: 0;
 }
 
-.profileHeader p{
-    font-size: 15px;
-    color: var(--gray-text);
-}
-
 /* imageWrapper */
 .imageWrapper{
     display: flex;
