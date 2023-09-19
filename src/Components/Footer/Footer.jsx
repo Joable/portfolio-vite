@@ -1,5 +1,11 @@
 import styles from './Footer.module.css';
 
+import {
+    AiFillLinkedin,
+    AiFillGithub
+} from 'react-icons/ai';
+import { IconContext } from 'react-icons';
+
 export default function Footer(){
     return(
         <footer>
@@ -8,9 +14,14 @@ export default function Footer(){
 
 
                 <div className={styles.links}>
-                    <a href='#'>Github</a>
-
-                    <a href="#">Linkedin</a>
+                    <IconContext.Provider value={{size: "40px", color: "white"}}>
+                        <a href="#">
+                            <AiFillLinkedin/>
+                        </a>
+                        <a href="#">
+                            <AiFillGithub/>
+                        </a>
+                    </IconContext.Provider>
                 </div>
             </div>
         </footer>

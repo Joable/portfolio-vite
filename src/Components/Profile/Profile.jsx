@@ -3,7 +3,7 @@ import styles from './Profile.module.css';
 import {
     AiFillLinkedin,
     AiFillGithub
-} from 'react-icons/ai'
+} from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 
 export default function Profile(){
