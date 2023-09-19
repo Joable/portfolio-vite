@@ -31,3 +31,17 @@ footer{
 .links a{
     color: white;
 }
+
+/* goUp */
+.goUp{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.goUp:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+}

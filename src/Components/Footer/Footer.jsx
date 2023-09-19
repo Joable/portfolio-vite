@@ -10,7 +10,7 @@ export default function Footer(){
     return(
         <footer>
             <div className={styles.footerContent}>
-                <button>Go up</button>
+                <button className={styles.goUp}>Go up</button>
 
 
                 <div className={styles.links}>
