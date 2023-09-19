@@ -15,4 +15,13 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-weight: 700;
+}
+
+.pageNavigation a{
+    color: black;
+}
+
+.pageNavigation a:hover{
+    text-decoration: underline;
 }
