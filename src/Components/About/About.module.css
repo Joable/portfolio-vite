@@ -12,12 +12,14 @@
 .aboutWrapper{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
     max-height: 500px;
 }
 
 /* aboutText */
 .aboutText{
-    max-width: 500px;
+    max-width: 600px;
 }
 
 /* aboutImage */
