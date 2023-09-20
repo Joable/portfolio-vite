@@ -14,7 +14,9 @@ export default function Footer(){
 
     return(
         <footer>
+
             <div className={styles.footerContent}>
+
                 <button className={styles.goUp} onClick={handleGoUp}>Go up</button>
 
                 <div className={styles.links}>
@@ -28,7 +30,9 @@ export default function Footer(){
                         </a>
                     </IconContext.Provider>
                 </div>
+                
             </div>
+
         </footer>
     );
 }

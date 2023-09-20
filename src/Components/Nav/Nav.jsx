@@ -19,18 +19,25 @@ export default function Nav(){
         setContactElement(document.getElementById('contact'));
     },[]);
 
+    const handleScroll = (element) => {
+        const elementTop = element.getBoundingClientRect().top;
+        const bodyTop = document.body.getBoundingClientRect().top    
+    
+        document.documentElement.scrollTop = elementTop - bodyTop;
+    };
+
     return(
         <nav>
             <a href="#">Logo</a>
 
             <div className={styles.pageNavigation}>
-                 <button onClick={() => console.log(profileElement)}>Profile</button>
+                 <button onClick={() => handleScroll(profileElement)}>Profile</button>
                  
-                 <button onClick={() => console.log(aboutElement)}>About</button>
+                 <button onClick={() => handleScroll(aboutElement)}>About</button>
 
-                 <button onClick={() => console.log(projectsElement)}>Projects</button>
+                 <button onClick={() => handleScroll(projectsElement)}>Projects</button>
                  
-                 <button onClick={() => console.log(contactElement)}>Contact</button>
+                 <button onClick={() => handleScroll(contactElement)}>Contact</button>
             </div>
         </nav>
     );
