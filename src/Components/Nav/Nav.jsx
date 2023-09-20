@@ -28,8 +28,6 @@ export default function Nav(){
 
     return(
         <nav>
-            <a href="#">Logo</a>
-
             <div className={styles.pageNavigation}>
                  <button onClick={() => handleScroll(profileElement)}>Profile</button>
                  
