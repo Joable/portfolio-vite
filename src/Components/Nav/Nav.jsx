@@ -21,7 +21,7 @@ export default function Nav(){
 
     const handleScroll = (element) => {
         const elementTop = element.getBoundingClientRect().top;
-        const bodyTop = document.body.getBoundingClientRect().top    
+        const bodyTop = document.body.getBoundingClientRect().top;    
     
         document.documentElement.scrollTop = elementTop - bodyTop;
     };
