@@ -1,11 +1,13 @@
 #root{
     --gray-text: rgb(134, 131, 131);
-    --primary-color: #27005D;
-    --secondary-color: #9400FF;
-    --third-color: #AED2FF;
-    --fourth-color: #E4F1FF;
+    --primary-color: #900C3F;
+    --secondary-color: #C70039;
+    --third-color: #F94C10;
+    --fourth-color: #F8DE22;
     position: relative;
     padding-bottom: 200px;
+    color: var(--primary-color);
+    background-color: var(--fourth-color);
 }
 
 body{
@@ -13,11 +15,15 @@ body{
     margin: 0;
 }
 
+h3{
+    color: var(--third-color);
+}
+
 a{
     text-decoration: none;
 }
 
 p{
-    color: var(--gray-text);
+    color: var(--secondary-color);
     font-size: 15px;
 }

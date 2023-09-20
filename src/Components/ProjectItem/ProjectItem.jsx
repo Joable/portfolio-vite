@@ -24,7 +24,7 @@ export default function ProjectItem({project}){
                 </div>
 
                 <div className={styles.externalLinks}>
-                    <IconContext.Provider value={{size: "40px", color: "black"}}>
+                    <IconContext.Provider value={{size: "40px", color: "var(--primary-color)"}}>
                     <a href={gitUrl}>
                         <AiFillGithub/>
                     </a>

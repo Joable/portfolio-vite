@@ -20,7 +20,7 @@ export default function Footer(){
                 <button className={styles.goUp} onClick={handleGoUp}>Go up</button>
 
                 <div className={styles.links}>
-                    <IconContext.Provider value={{size: "40px", color: "white"}}>
+                    <IconContext.Provider value={{size: "40px", color: "var(--fourth-color)"}}>
                         <a href="#">
                             <AiFillLinkedin/>
                         </a>
