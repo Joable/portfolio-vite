@@ -5,7 +5,7 @@ import {projectsList} from './ProjectsList.js';
 export default function Projects(){
 
     return(
-        <section className={styles.projects}>
+        <section id='projects' className={styles.projects}>
             
             <h2>Projects</h2>
             

@@ -9,7 +9,7 @@ import { IconContext } from 'react-icons';
 export default function Footer(){
 
     const handleGoUp = () => {
-        document.documentElement.scrollTop = 0
+        document.documentElement.scrollTop = 0;
     };
 
     return(
@@ -22,6 +22,7 @@ export default function Footer(){
                         <a href="#">
                             <AiFillLinkedin/>
                         </a>
+
                         <a href="#">
                             <AiFillGithub/>
                         </a>
