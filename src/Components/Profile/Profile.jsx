@@ -8,7 +8,7 @@ import { IconContext } from 'react-icons';
 
 export default function Profile(){
     return(
-        <section className={styles.profile}>
+        <section id='profile' className={styles.profile}>
 
             <div className={styles.profileWrapper}>
 
