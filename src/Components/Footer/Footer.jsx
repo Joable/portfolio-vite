@@ -7,11 +7,15 @@ import {
 import { IconContext } from 'react-icons';
 
 export default function Footer(){
+
+    const handleGoUp = () => {
+        document.documentElement.scrollTop = 0
+    };
+
     return(
         <footer>
             <div className={styles.footerContent}>
-                <button className={styles.goUp}>Go up</button>
-
+                <button className={styles.goUp} onClick={handleGoUp}>Go up</button>
 
                 <div className={styles.links}>
                     <IconContext.Provider value={{size: "40px", color: "white"}}>
