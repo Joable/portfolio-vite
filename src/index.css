@@ -1,5 +1,9 @@
 #root{
     --gray-text: rgb(134, 131, 131);
+    --primary-color: #27005D;
+    --secondary-color: #9400FF;
+    --third-color: #AED2FF;
+    --fourth-color: #E4F1FF;
     position: relative;
     padding-bottom: 200px;
 }

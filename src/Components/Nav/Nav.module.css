@@ -7,7 +7,7 @@ nav{
     justify-content: center;
     width: 100%;
     padding: 10px;
-    background-color: white;
+    background-color: var(--primary-color);
 }
 
 /* pageNavigation */
@@ -25,11 +25,12 @@ nav{
     font-size: 20px;
     font-weight: 700;
     border: 0;
-    border-bottom: 2px solid white;
-    background-color: white;
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--third-color);
+    background-color: var(--primary-color);
 }
 
 .pageNavigation button:hover{
     cursor: pointer;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--third-color);
 }
