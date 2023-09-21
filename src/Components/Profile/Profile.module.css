@@ -38,8 +38,13 @@
     max-height: 200px;
     border: 2px solid var(--primary-color);
     border-radius: 50%;
-    object-fit: cover;
     overflow: hidden;
+}
+
+.imageWrapper img{
+    max-width: 160%;
+    max-height: 160%;
+    transform: translate(-20px);
 }
 
 /* techStack */

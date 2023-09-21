@@ -19,7 +19,7 @@ export default function Profile(){
                 </div>
 
                 <div className={styles.imageWrapper}>
-                    <img src="../../img/cheeto-chan.PNG" alt="cheeto chan" />
+                    <img src="../../img/Profile1.jpg" alt="cheeto chan" />
                 </div>
 
                 <div className={styles.externalLinks}>
