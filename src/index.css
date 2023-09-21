@@ -1,9 +1,9 @@
 #root{
     --gray-text: rgb(134, 131, 131);
-    --primary-color: #900C3F;
-    --secondary-color: #C70039;
-    --third-color: #F94C10;
-    --fourth-color: #F8DE22;
+    --primary-color: #454545;
+    --secondary-color: #FF6000;
+    --third-color: #FFA559;
+    --fourth-color: #FFE6C7;
     position: relative;
     padding-bottom: 200px;
     color: var(--primary-color);
@@ -16,7 +16,7 @@ body{
 }
 
 h3{
-    color: var(--third-color);
+    color: var(--secondary-color);
 }
 
 a{
@@ -24,6 +24,6 @@ a{
 }
 
 p{
-    color: var(--secondary-color);
+    color: var(--gray-text);
     font-size: 15px;
 }

@@ -26,11 +26,11 @@ nav{
     font-weight: 700;
     border: 0;
     border-bottom: 2px solid var(--primary-color);
-    color: var(--fourth-color);
+    color: var(--secondary-color);
     background-color: var(--primary-color);
 }
 
 .pageNavigation button:hover{
     cursor: pointer;
-    border-bottom: 2px solid var(--fourth-color);
+    border-bottom: 2px solid var(--secondary-color);
 }

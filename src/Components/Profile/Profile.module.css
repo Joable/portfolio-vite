@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+.profile h3{
+    color: var(--primary-color);
+}
+
 /* profileWrapper */
 .profileWrapper{
     display: grid;
@@ -32,7 +36,7 @@
     width: 200px;
     max-width: 200px;
     max-height: 200px;
-    border: 2px solid black;
+    border: 2px solid var(--primary-color);
     border-radius: 50%;
     object-fit: cover;
     overflow: hidden;
