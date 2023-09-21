@@ -6,6 +6,10 @@ export default function About(){
 
             <div className={styles.aboutWrapper}>
 
+                <div className={styles.aboutImage}>
+                    <img src="../../img/coding.jpg" alt="About" />
+                </div>
+
                 <div className={styles.aboutText}>
                     <h3>ABOUT ME</h3>
                     <h2>THE BIGGEST OF THEM ALL</h2>
@@ -18,10 +22,6 @@ export default function About(){
                         Nam sagittis efficitur nisl et molestie. Etiam porta nisl sed turpis cursus consequat. 
                         Suspendisse sagittis tellus tempus, hendrerit ipsum quis, sagittis magna. Cras id arcu ipsum.
                     </p>
-                </div>
-
-                <div className={styles.aboutImage}>
-                    <img src="../../img/whenithits.jpg" alt="About" />
                 </div>
 
             </div>
