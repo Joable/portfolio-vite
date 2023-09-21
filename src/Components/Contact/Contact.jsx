@@ -10,10 +10,14 @@ export default function Contact(){
                 <h2>Contact me!</h2>
 
                 <div className={styles.email}>
-                    <img src="../../img/smiley2.png" alt="smile" />
-
-                    <h3>Email</h3>
-                    <p>Joaodasilva@shroogle.com</p>
+                    <div className={styles.icon}>
+                        <img src="../../img/mail.svg" alt="Mail" />
+                    </div>
+                    
+                    <div className={styles.emailWrapper}>
+                        <h3>Email</h3>
+                        <p>Joaodasilva@shroogle.com</p>
+                    </div>
                 </div>
 
             </div>
