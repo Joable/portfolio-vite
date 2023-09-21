@@ -1,18 +1,18 @@
 export const projectsList = [
     {
-        name:"Power in misery",
-        description: "Traversing the grid of death",
+        name:"placeholder1",
+        description: "placeholder",
         techStack:["React", "CSS"],
         gitUrl:"#",
         demoUrl:"#",
-        imgUrl:"../../img/powerinmisery.jpg"
+        imgUrl:"../../img/placeholder.png"
     },
     {
-        name:"Hope erradicated",
-        description: "The world has left nothing for you",
+        name:"placeholder2",
+        description: "placeholder",
         techStack:["React", "CSS"],
         gitUrl:"#",
         demoUrl:"#",
-        imgUrl:"../../img/hopeeradicated.jpg"
+        imgUrl:"../../img/placeholder.png"
     }
 ]

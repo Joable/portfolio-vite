@@ -10,17 +10,20 @@
 .itemImage{
     max-width: 400px;
     max-height: 400px;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .itemImage img{
-    max-width: 100%;
     max-height: 100%;
+    transform: translate(-200px);
 }
 
 /* itemText */
 .itemText{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 30%;
