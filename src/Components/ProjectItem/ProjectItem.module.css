@@ -54,3 +54,15 @@
     margin: 0;
     color: var(--primary-color);
 }
+
+@media (max-width: 768px){
+    /* externalLinks */
+    .externalLinks{
+        flex-direction: column;
+    }
+
+    /* itemImage */
+    .itemImage{
+        margin: 10px;
+    }
+}
