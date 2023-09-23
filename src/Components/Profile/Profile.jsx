@@ -18,10 +18,10 @@ export default function Profile(){
                     <p>Hi, i'm Joaquin Altable. A passionate React front-end developer from Buenos Aires, Argentina.</p>
                     
                     <IconContext.Provider value={{size: "40px", color: "var(--primary-color)"}}>
-                        <a href="#">
+                        <a href="https://linkedin.com/in/jealtable" rel="noreferrer" target="_blank">
                             <AiFillLinkedin/>
                         </a>
-                        <a href="#">
+                        <a href="https://github.com/Joable" rel="noreferrer" target="_blank">
                             <AiFillGithub/>
                         </a>
                     </IconContext.Provider>
