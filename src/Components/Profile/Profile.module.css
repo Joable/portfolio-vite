@@ -14,10 +14,9 @@
 
 /* profileWrapper */
 .profileWrapper{
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 600px;
     margin-bottom: 50px;
 }
@@ -33,7 +32,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    min-width: 200px;
+    min-height: 200px;
     max-width: 200px;
     max-height: 200px;
     border: 2px solid var(--primary-color);

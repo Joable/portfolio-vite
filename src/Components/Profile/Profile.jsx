@@ -16,14 +16,7 @@ export default function Profile(){
                     <h2>Front-End React Developer</h2>
 
                     <p>Hi, i'm Joaquin Altable. A passionate React front-end developer from Buenos Aires, Argentina.</p>
-                </div>
-
-                <div className={styles.imageWrapper}>
-                    <img src="../../img/Profile1.jpg" alt="cheeto chan" />
-                </div>
-
-                <div className={styles.externalLinks}>
-
+                    
                     <IconContext.Provider value={{size: "40px", color: "var(--primary-color)"}}>
                         <a href="#">
                             <AiFillLinkedin/>
@@ -32,7 +25,10 @@ export default function Profile(){
                             <AiFillGithub/>
                         </a>
                     </IconContext.Provider>
-                    
+                </div>
+
+                <div className={styles.imageWrapper}>
+                    <img src="../../img/Profile1.jpg" alt="cheeto chan" />
                 </div>
 
             </div>
