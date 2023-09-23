@@ -1,8 +1,6 @@
 import styles from './ProjectItem.module.css';
-import {
-    AiFillLinkedin,
-    AiFillGithub
-} from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
+import { FiExternalLink } from 'react-icons/fi';
 import { IconContext } from 'react-icons';
 
 export default function ProjectItem({project}){
@@ -24,15 +22,21 @@ export default function ProjectItem({project}){
                 </div>
 
                 <div className={styles.externalLinks}>
+
                     <IconContext.Provider value={{size: "40px", color: "var(--primary-color)"}}>
                     <a href={gitUrl}>
                         <AiFillGithub/>
                     </a>
+                    </IconContext.Provider>
 
-                    <a href={demoUrl}>
-                        <AiFillLinkedin/>
+                    <IconContext.Provider value={{size: "20px", color: "var(--primary-color)"}}>
+                    <a className={styles.demoLink} href={demoUrl}>
+                        <h4>Live Demo </h4>
+
+                        <FiExternalLink/>
                     </a>
                     </IconContext.Provider>
+                    
                 </div>
             </div>
         </div>
