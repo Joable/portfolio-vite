@@ -1,5 +1,8 @@
 import styles from './Contact.module.css';
 
+import { IconContext } from 'react-icons';
+import { BiMailSend } from 'react-icons/bi';
+
 export default function Contact(){
     return(
         <section id='contact' className={styles.contact}>
@@ -11,7 +14,11 @@ export default function Contact(){
 
                 <div className={styles.email}>
                     <div className={styles.icon}>
-                        <img src="../../img/mail.svg" alt="Mail" />
+                    
+                        <IconContext.Provider value={{ "color": "var(--primary-color)", "size":"60px"  }}>
+                            <BiMailSend/>
+                        </IconContext.Provider>
+
                     </div>
                     
                     <div className={styles.emailWrapper}>
