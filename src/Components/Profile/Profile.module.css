@@ -61,3 +61,29 @@
     width: 50px;
     height: 50px;
 }
+
+@media (max-width: 480px){
+    /* profileWrapper */
+    .profileWrapper{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .profileHeader h2{
+        margin-top: 10px;
+    }
+
+    /* techStack */
+    .techStack{
+        display: grid;
+        grid-template-columns: 100px 50px 50px;
+        grid-template-rows: 50px 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .techStack h3{
+        grid-row: 1/3;
+    }
+}
