@@ -15,8 +15,7 @@
 }
 
 .itemImage img{
-    max-height: 100%;
-    transform: translate(-200px);
+    max-width: 400px;
 }
 
 /* itemText */
