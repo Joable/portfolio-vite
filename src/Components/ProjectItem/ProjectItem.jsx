@@ -3,13 +3,35 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FiExternalLink } from 'react-icons/fi';
 import { IconContext } from 'react-icons';
 
+import {
+    useEffect,
+    useState
+} from 'react';
+
 export default function ProjectItem({project}){
-    const {name, description, techStack, gitUrl, demoUrl, imgUrl} = project
+    const {name, description, techStack, gitUrl, demoUrl, imgUrl} = project;
+    const [containerStyles, setContainerStyle] = useState("");
+    const [imageStyles, setImageStyles] = useState("");
+    
+    useEffect(() => {
+        setContainerStyle(window.getComputedStyle(document.getElementById('imageContainer')));
+
+        setImageStyles(window.getComputedStyle(document.getElementById('projectImage')));
+    
+    } ,[]);
+
+    useEffect(() =>{
+        if(imageStyles !== "") console.log(imageStyles.getPropertyValue("height"));
+        }, [imageStyles])
+
+    useEffect(() =>{
+        if(containerStyles !== "") console.log(containerStyles.getPropertyValue("height"))
+        }, [containerStyles])
 
     return(
         <div className={styles.item}>
-            <div className={styles.itemImage}>
-                <img src={imgUrl} alt="Project" />
+            <div id='imageContainer' className={styles.itemImage}>
+                <img id='projectImage' src={imgUrl} alt="Project" />
             </div>
 
             <div className={styles.itemText}>

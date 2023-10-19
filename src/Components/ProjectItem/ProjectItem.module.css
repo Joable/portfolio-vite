@@ -2,12 +2,13 @@
 .item{
     display: flex;
     flex-direction: row;
-    max-height: 400px;
+    max-height: 300px;
     margin: 50px 0;
 }
 
 /* itemImage */
 .itemImage{
+    --image-scroll: 0px;
     max-width: 400px;
     max-height: 400px;
     overflow: hidden;
@@ -20,7 +21,7 @@
 }
 
 .itemImage img:hover{
-    transform: translate(0,-50%);
+    transform: translate(0,-75%);
 }
 
 /* itemText */
@@ -67,7 +68,7 @@
         align-items: center;
         max-height: 1000px;
     }
-
+    
     /* itemImage */
     .itemImage{
         margin: 10px;

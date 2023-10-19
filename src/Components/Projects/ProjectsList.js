@@ -1,11 +1,11 @@
 export const projectsList = [
     {
-        name:"placeholder1",
+        name:"CryptoSearch",
         description: "placeholder",
         techStack:["React", "CSS"],
         gitUrl:"#",
         demoUrl:"#",
-        imgUrl:"../../img/placeholder.png"
+        imgUrl:"../../img/projects/CryptoSearch.png"
     },
     {
         name:"placeholder2",
