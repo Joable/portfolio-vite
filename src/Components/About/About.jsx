@@ -12,15 +12,13 @@ export default function About(){
 
                 <div className={styles.aboutText}>
                     <h3>ABOUT ME</h3>
-                    <h2>THE BIGGEST OF THEM ALL</h2>
+                    <h2>I Like Programming In React</h2>
 
                     <p>
-                        Curabitur congue aliquet pellentesque. Aenean at finibus lacus. Aliquam molestie, 
-                        odio sed ornare ultrices, magna augue faucibus urna, quis malesuada elit mauris ac massa. 
-                        Nulla fermentum turpis a purus pharetra, ut elementum ex euismod. Mauris malesuada nunc dolor, 
-                        id faucibus neque laoreet quis. Pellentesque odio est, sollicitudin eu ante ac, consectetur rhoncus augue. 
-                        Nam sagittis efficitur nisl et molestie. Etiam porta nisl sed turpis cursus consequat. 
-                        Suspendisse sagittis tellus tempus, hendrerit ipsum quis, sagittis magna. Cras id arcu ipsum.
+                        I'm a programmer from Buenos Aires studying computer engineering.
+                        I've started learning React on my own and been developing my skills with the library, 
+                        to the point that i've a couple of projects with React to show what i'm capable of.
+                        The core of this projects is focusing in a simple design.
                     </p>
                 </div>
 

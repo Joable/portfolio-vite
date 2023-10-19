@@ -18,17 +18,20 @@ export default function Profile(){
                     <p>Hi, i'm Joaquin Altable. A passionate React front-end developer from Buenos Aires, Argentina.</p>
                     
                     <IconContext.Provider value={{size: "40px", color: "var(--primary-color)"}}>
+
                         <a href="https://linkedin.com/in/jealtable" rel="noreferrer" target="_blank">
                             <AiFillLinkedin/>
                         </a>
+
                         <a href="https://github.com/Joable" rel="noreferrer" target="_blank">
                             <AiFillGithub/>
                         </a>
+                        
                     </IconContext.Provider>
                 </div>
 
                 <div className={styles.imageWrapper}>
-                    <img src="../../img/Profile1.jpg" alt="cheeto chan" />
+                    <img src="../../img/Profile1.jpg" alt="Profile" />
                 </div>
 
             </div>
