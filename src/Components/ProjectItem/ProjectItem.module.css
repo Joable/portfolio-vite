@@ -14,6 +14,7 @@
 }
 
 .itemImage img{
+    width: 100%;
     max-width: 400px;
     transition: all 3s;
 }
@@ -59,9 +60,12 @@
 }
 
 @media (max-width: 768px){
-    /* externalLinks */
-    .externalLinks{
-        flex-direction: column;
+    /* item */
+    .item{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-height: 1000px;
     }
 
     /* itemImage */
