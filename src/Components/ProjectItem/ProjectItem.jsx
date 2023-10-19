@@ -10,23 +10,25 @@ import {
 
 export default function ProjectItem({project}){
     const {name, description, techStack, gitUrl, demoUrl, imgUrl} = project;
-    const [containerStyles, setContainerStyle] = useState("");
-    const [imageStyles, setImageStyles] = useState("");
+    const [containerProperties, setContainerProperties] = useState("");
+    const [imageProperties, setImageProperties] = useState("");
     
     useEffect(() => {
-        setContainerStyle(window.getComputedStyle(document.getElementById('imageContainer')));
+        setContainerProperties(window.getComputedStyle(document.getElementById('imageContainer')));
 
-        setImageStyles(window.getComputedStyle(document.getElementById('projectImage')));
+        setImageProperties(window.getComputedStyle(document.getElementById('projectImage')));
     
     } ,[]);
 
     useEffect(() =>{
-        if(imageStyles !== "") console.log(imageStyles.getPropertyValue("height"));
-        }, [imageStyles])
+        if(imageProperties !== "" && containerProperties !== ""){
+            let imageHeight = imageProperties.getPropertyValue('height');
+            let containerHeight = containerProperties.getPropertyValue('height');
+            let heightDifference = Number.parseFloat(imageHeight) - Number.parseFloat(containerHeight);
 
-    useEffect(() =>{
-        if(containerStyles !== "") console.log(containerStyles.getPropertyValue("height"))
-        }, [containerStyles])
+           document.getElementById('imageContainer').style.setProperty('--image-scroll', `-${heightDifference}px`) 
+        };
+        }, [imageProperties]);
 
     return(
         <div className={styles.item}>

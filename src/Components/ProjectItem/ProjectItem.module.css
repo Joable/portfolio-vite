@@ -21,7 +21,7 @@
 }
 
 .itemImage img:hover{
-    transform: translate(0,-75%);
+    transform: translate(0,var(--image-scroll));
 }
 
 /* itemText */
