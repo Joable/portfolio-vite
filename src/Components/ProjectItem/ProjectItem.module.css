@@ -14,13 +14,13 @@
     overflow: hidden;
 }
 
-.itemImage img{
+.projectImage{
     width: 100%;
     max-width: 400px;
     transition: all 3s;
 }
 
-.itemImage img:hover{
+.projectImage:hover{
     transform: translate(0,var(--image-scroll));
 }
 

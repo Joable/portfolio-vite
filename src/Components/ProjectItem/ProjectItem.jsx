@@ -10,30 +10,11 @@ import {
 
 export default function ProjectItem({project}){
     const {name, description, techStack, gitUrl, demoUrl, imgUrl} = project;
-    const [containerProperties, setContainerProperties] = useState("");
-    const [imageProperties, setImageProperties] = useState("");
-    
-    useEffect(() => {
-        setContainerProperties(window.getComputedStyle(document.getElementById('imageContainer')));
-
-        setImageProperties(window.getComputedStyle(document.getElementById('projectImage')));
-    
-    } ,[]);
-
-    useEffect(() =>{
-        if(imageProperties !== "" && containerProperties !== ""){
-            let imageHeight = imageProperties.getPropertyValue('height');
-            let containerHeight = containerProperties.getPropertyValue('height');
-            let heightDifference = Number.parseFloat(imageHeight) - Number.parseFloat(containerHeight);
-
-           document.getElementById('imageContainer').style.setProperty('--image-scroll', `-${heightDifference}px`) 
-        };
-        }, [imageProperties]);
 
     return(
         <div className={styles.item}>
             <div id='imageContainer' className={styles.itemImage}>
-                <img id='projectImage' src={imgUrl} alt="Project" />
+                <img className={styles.projectImage} src={imgUrl} alt="Project" />
             </div>
 
             <div className={styles.itemText}>
