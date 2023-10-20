@@ -8,11 +8,11 @@ export const projectsList = [
         imgUrl:"../../img/projects/CryptoSearch.png"
     },
     {
-        name:"placeholder2",
+        name:"E-Commerce Site",
         description: "placeholder",
         techStack:["React", "CSS"],
         gitUrl:"#",
         demoUrl:"#",
-        imgUrl:"../../img/placeholder.png"
+        imgUrl:"../../img/projects/E-CommerceSite.png"
     }
 ]

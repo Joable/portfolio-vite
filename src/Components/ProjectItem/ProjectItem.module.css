@@ -17,7 +17,7 @@
 .projectImage{
     width: 100%;
     max-width: 400px;
-    transition: all 3s;
+    transition: all 8s;
 }
 
 .projectImage:hover{

@@ -14,7 +14,7 @@ export default function ProjectItem({project}){
     return(
         <div className={styles.item}>
             <div id='imageContainer' className={styles.itemImage}>
-                <img className={styles.projectImage} src={imgUrl} alt="Project" />
+                <img className={`${styles.projectImage} projectImage`} src={imgUrl} alt="Project" />
             </div>
 
             <div className={styles.itemText}>
