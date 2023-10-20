@@ -11,6 +11,7 @@ import ProjectItem from '../ProjectItem/ProjectItem';
 
 export default function Projects(){
     const [projects, setProjects] = useState("");
+    const [activateHover, setActivateHover] = useState(0);
     const [containerHeight, setContainerHeight] = useState("");
 
     useEffect(() => {
@@ -37,7 +38,7 @@ export default function Projects(){
                 projects[i].style.setProperty('--image-scroll', `-${imageHeight - containerHeight}px`)
             };
         }
-    },[projects]);
+    },[activateHover]);
 
 
     return(
@@ -47,7 +48,7 @@ export default function Projects(){
             
             <div id='projectsWrapper' className={styles.projectsWrapper}>
 
-                {projectsList.map((project) => <ProjectItem key={project.name} project={project}/>)}
+                {projectsList.map((project) => <ProjectItem key={project.name} project={project} onHover = {() => setActivateHover(1)}/>)}
 
             </div>
 

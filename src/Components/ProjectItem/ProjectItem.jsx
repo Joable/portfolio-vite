@@ -8,13 +8,13 @@ import {
     useState
 } from 'react';
 
-export default function ProjectItem({project}){
+export default function ProjectItem({project, onHover}){
     const {name, description, techStack, gitUrl, demoUrl, imgUrl} = project;
 
     return(
         <div className={styles.item}>
             <div id='imageContainer' className={styles.itemImage}>
-                <img className={`${styles.projectImage} projectImage`} src={imgUrl} alt="Project" />
+                <img onMouseOver={onHover} className={`${styles.projectImage} projectImage`} src={imgUrl} alt="Project" />
             </div>
 
             <div className={styles.itemText}>
