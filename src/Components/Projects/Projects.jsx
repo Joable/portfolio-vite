@@ -25,15 +25,11 @@ export default function Projects(){
     },[])
 
     useEffect(() =>{
-        console.log(projects)
         if(projects !== ""){
             let imageHeight = "";
 
             for(let i = 0; i < projects.length ; i++){
                 imageHeight = Number.parseFloat(window.getComputedStyle(projects[i]).getPropertyValue('height'));
-                console.log(imageHeight)
-                console.log(window.getComputedStyle(projects[i]).getPropertyValue('height'))
-                console.log(containerHeight)
 
                 projects[i].style.setProperty('--image-scroll', `-${imageHeight - containerHeight}px`)
             };
@@ -43,10 +39,11 @@ export default function Projects(){
 
     return(
         <section id='projects' className={styles.projects}>
-            
-            <h3>Projects</h3>
-            
             <div id='projectsWrapper' className={styles.projectsWrapper}>
+            
+            <div className={styles.title}>
+                <h3>Projects</h3>
+            </div>
 
                 {projectsList.map((project) => <ProjectItem key={project.name} project={project} onHover = {() => setActivateHover(1)}/>)}
 

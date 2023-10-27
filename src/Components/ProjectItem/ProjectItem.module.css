@@ -2,7 +2,7 @@
 .item{
     display: flex;
     flex-direction: row;
-    max-height: 300px;
+    justify-content: space-between;
     margin: 50px 0;
 }
 
@@ -10,7 +10,7 @@
 .itemImage{
     --image-scroll: 0px;
     max-width: 400px;
-    max-height: 400px;
+    max-height: 300px;
     overflow: hidden;
 }
 
@@ -28,9 +28,9 @@
 .itemText{
     display: flex;
     flex-direction: column;
+    text-align: justify;
     justify-content: center;
     align-items: center;
-    text-align: center;
     width: 30%;
 }
 
@@ -66,11 +66,12 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        width: 400px;
         max-height: 1000px;
     }
-    
-    /* itemImage */
-    .itemImage{
-        margin: 10px;
+
+    /* itemText */
+    .itemText{
+        width: 100%;
     }
 }
