@@ -7,7 +7,7 @@ export default function About(){
             <div className={styles.aboutWrapper}>
 
                 <div className={styles.aboutImage}>
-                    <img src="../../img/coding.jpg" alt="About" />
+                    <img src="img/coding.jpg" alt="About" />
                 </div>
 
                 <div className={styles.aboutText}>
