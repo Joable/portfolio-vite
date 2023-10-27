@@ -36,7 +36,7 @@ export default function ProjectItem({project, onHover}){
 
                     <IconContext.Provider value={{size: "20px", color: "var(--primary-color)"}}>
                     <a className={styles.demoLink} href={demoUrl}>
-                        <h4>Live Demo </h4>
+                        <h4>Live Demo</h4>
 
                         <FiExternalLink/>
                     </a>
