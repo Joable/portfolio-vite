@@ -13,7 +13,7 @@ export default function Profile(){
             <div className={styles.profileWrapper}>
 
                 <div className={styles.profileHeader}>
-                    <h2>Front-End React Developer</h2>
+                    <h2>Front-End React Developer &#129305;</h2>
 
                     <p>Hi, i'm Joaquin Altable. A passionate React front-end developer from Buenos Aires, Argentina.</p>
                     

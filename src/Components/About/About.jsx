@@ -18,7 +18,6 @@ export default function About(){
                         I'm a programmer from Buenos Aires studying computer engineering.
                         I've started learning React on my own and been developing my skills with the library, 
                         to the point that i've made a couple of projects with React to show what i'm capable of.
-                        The core of this projects is focusing in a simple design.
                     </p>
                 </div>
 
