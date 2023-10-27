@@ -12,7 +12,7 @@ export default function About(){
 
                 <div className={styles.aboutText}>
                     <h3>ABOUT ME</h3>
-                    <h2>I Like Programming In React</h2>
+                    <h2>I Like Programming In React &#128526;</h2>
 
                     <p>
                         I'm a programmer from Buenos Aires studying computer engineering.

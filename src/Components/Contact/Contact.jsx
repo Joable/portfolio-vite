@@ -23,7 +23,7 @@ export default function Contact(){
                     
                     <div className={styles.emailWrapper}>
                         <h3>Email</h3>
-                        <p>Joaodasilva@shroogle.com</p>
+                        <p>joaquin_elias_altable@hotmail.com</p>
                     </div>
                 </div>
 
