@@ -3,10 +3,6 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FiExternalLink } from 'react-icons/fi';
 import { IconContext } from 'react-icons';
 
-import {
-    useEffect,
-    useState
-} from 'react';
 
 export default function ProjectItem({project, onHover}){
     const {name, description, techStack, gitUrl, demoUrl, imgUrl} = project;
@@ -29,13 +25,13 @@ export default function ProjectItem({project, onHover}){
                 <div className={styles.externalLinks}>
 
                     <IconContext.Provider value={{size: "40px", color: "var(--primary-color)"}}>
-                    <a href={gitUrl}>
+                    <a href={gitUrl} target='__blank'>
                         <AiFillGithub/>
                     </a>
                     </IconContext.Provider>
 
                     <IconContext.Provider value={{size: "20px", color: "var(--primary-color)"}}>
-                    <a className={styles.demoLink} href={demoUrl}>
+                    <a className={styles.demoLink} href={demoUrl} target='__blank'>
                         <h4>Live Demo</h4>
 
                         <FiExternalLink/>
