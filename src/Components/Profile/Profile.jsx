@@ -31,7 +31,7 @@ export default function Profile(){
                 </div>
 
                 <div className={styles.imageWrapper}>
-                    <img src="../../img/Profile1.jpg" alt="Profile" />
+                    <img src="img/Profile1.jpg" alt="Profile" />
                 </div>
 
             </div>
@@ -39,10 +39,10 @@ export default function Profile(){
             <div className={styles.techStack}>
                 <h3>Tech stack</h3>
 
-                <img src="../../img/HTML.svg" alt="HTML" />
-                <img src="../../img/CSS.svg" alt="CSS" />
-                <img src="../../img/JavaScript.svg" alt="JavaScript" />
-                <img src="../../img/React.svg" alt="React" />
+                <img src="img/HTML.svg" alt="HTML" />
+                <img src="img/CSS.svg" alt="CSS" />
+                <img src="img/JavaScript.svg" alt="JavaScript" />
+                <img src="img/React.svg" alt="React" />
             </div>
             
         </section>
