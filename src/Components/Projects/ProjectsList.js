@@ -7,12 +7,12 @@ export const projectsList = [
         demoUrl:"https://joable.github.io/Build1/",
         imgUrl:"img/projects/CryptoSearch.png"
     },
-    /*{
+    {
         name:"E-Commerce Site",
         description: "placeholder",
         techStack:["React", "CSS"],
-        gitUrl:"#",
-        demoUrl:"#",
+        gitUrl:"https://github.com/Joable/e-commer-site",
+        demoUrl:"https://joable.github.io/ecommerceBuild/",
         imgUrl:"img/projects/E-CommerceSite.png"
-    }*/
+    }
 ]
