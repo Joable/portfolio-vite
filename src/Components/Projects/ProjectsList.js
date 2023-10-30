@@ -9,8 +9,8 @@ export const projectsList = [
     },
     {
         name:"E-Commerce Site",
-        description: "placeholder",
-        techStack:["React", "CSS"],
+        description: "An e-commerce site with a simple design. It has a landing page, category page showing the products by category, and a product page showing its details.",
+        techStack:["React", "CSS", "Firebase"],
         gitUrl:"https://github.com/Joable/e-commer-site",
         demoUrl:"https://joable.github.io/ecommerceBuild/",
         imgUrl:"img/projects/E-CommerceSite.png"
